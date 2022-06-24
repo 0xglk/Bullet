@@ -36,3 +36,16 @@ chmod u+x ./bullet.sh
 ```bash
 npm run bullet
 ```
+
+## Edit File Information
+
+| Variable        | Default Values | You Can Edit                                                    |
+| --------------- | -------------- | --------------------------------------------------------------- |
+| Command         | `npm start`    | `Change It To Any Command`                                      |
+| Port            | `8000`         | `Change It To Your Port`                                        |
+| FileName        | `instance`     | `Change It To Your File Name `                                  |
+| Path            | `stores`       | `Change It To Your Folder name or path `                        |
+
+
+
+
