@@ -2,6 +2,7 @@
 # Bullet 🔥
 
 - Instructions 🎩
+⚠️ Windows Users Use Git Bash ⚠️
 
 ## First 😊:
 
