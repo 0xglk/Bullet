@@ -22,10 +22,14 @@ Path="stores"
         Ipv4=$(hostname -i)
 
     elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
-        Ipv4=$(for /f "tokens=2 delims=[]" %a in ('ping -n 1 -4 "%computername%"') do @echo %a)
+        # Ipv4=$(for /f "tokens=2 delims=[]" %a in ('ping -n 1 -4 "%computername%"') do @echo %a)
+        # Git bash windows
+        Ipv4=$(ipconfig | sed -n 24p | cut -c40-)
 
     elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
-       Ipv4=$(for /f "tokens=2 delims=[]" %a in ('ping -n 1 -4 "%computername%"') do @echo %a)
+       # Ipv4=$(for /f "tokens=2 delims=[]" %a in ('ping -n 1 -4 "%computername%"') do @echo %a)
+       # Git bash windows
+       Ipv4=$(ipconfig | sed -n 24p | cut -c40-)
     fi
 
 check(){
