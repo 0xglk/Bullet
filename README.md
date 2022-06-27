@@ -25,7 +25,7 @@
     "bullet": "./bullet.sh"
   },
 ```
-## Third
+## Third 🤯
 
 1. Open Your Terminal in VSCode 
 2. Run
@@ -36,6 +36,15 @@ chmod u+x ./bullet.sh
 ```bash
 npm run bullet
 ```
+## Command 
+
+| Options I        | Options        | Example                                    |
+| ---------------- |--------------- | -------------------------------------------|
+| Specific Port    | -p             | `-p 4000 `                                 |
+| Create a project | -c             | `-c r ` react or `-c rn`  React Native     |
+| Clean npm Cache  | -f             | `-f  `                                     |
+| Help option      | -h             | `-h  `                                     |
+
 
 ## Edit File Information
 
