@@ -2,7 +2,7 @@
 # Bullet 🔥
 
 - Instructions 🎩
-⚠️ Windows Users Use Git Bash ⚠️
+- ⚠️ Windows Users Use Git Bash ⚠️
 
 ## First 😊:
 
